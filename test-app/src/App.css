@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(203, 207, 207);
+}
+
+.blog-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 10px;
+}

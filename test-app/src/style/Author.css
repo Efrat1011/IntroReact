@@ -1,0 +1,18 @@
+.author-details{
+    background-color: white;
+    padding: 20px;
+    transition-duration: 1s;
+}
+.author-details:hover{
+    transform: scale(0.95);
+}
+div h3{
+    color: rgb(18, 154, 154);
+}
+div h3 p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div p{
+    color: darkblue;
+    font-weight: 500;
+}

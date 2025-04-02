@@ -1,3 +1,10 @@
-footer{
-    background-color: blue;
+.footer{
+    background: linear-gradient(135deg, #d91ffad8, #001e53);
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+}
+
+footer p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

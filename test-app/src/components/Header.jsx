@@ -1,10 +1,12 @@
 import React from 'react'
 import '../index.css'
 
-export default function Header(){
-    return(
-        <header>
-            <h1>Salam aleykum</h1>
-        </header>
-    )
+const Header = () => {
+ return(
+    <header className='header'> 
+    <h1>My blog</h1>
+    <p>Қарапайым және  талғампаз оқу тәжірибесі</p>
+    </header>
+ )
 }
+export default Header;

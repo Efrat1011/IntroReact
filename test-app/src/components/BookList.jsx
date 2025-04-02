@@ -27,13 +27,11 @@ export default function BookList(){
 
     return(
         <div className="container">
-              <h1 className="title">My profile cards</h1>
               <div  className="book-list">
               {book.map((book,index) =>{
               return <BookCard key={index} name={book.name} image={book.image} avtor={book.avtor} year={book.year}/>
 })}
               </div>
-
         </div>
     )
 }

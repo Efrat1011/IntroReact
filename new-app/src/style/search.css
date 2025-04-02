@@ -1,0 +1,59 @@
+/* Search.css */
+
+/* Іздеу формасының контейнері */
+.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+/* Іздеу инпуты */
+.search-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.search-input:focus {
+    border-color: #007bff;
+}
+
+.search-input:disabled {
+    background-color: #f9f9f9;
+    cursor: not-allowed;
+}
+
+/* Іздеу кнопкасы */
+.search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+.search-button:disabled {
+    background-color: #a0c4ff;
+    cursor: not-allowed;
+}
+
+/* Жалпы стильдер */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

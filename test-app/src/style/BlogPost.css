@@ -1,0 +1,23 @@
+.blog-post{
+    background-color: white;
+    /* box-shadow: -15px -5px 10px 35px rgba(0,0,0,0.2);  */
+    padding: 20px;
+}
+article h2 p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+article{
+    transition-duration: 1.3s ;
+}
+article:hover{
+    transform: translateY(-15px);
+}
+article h2 {
+    color: rgb(97, 17, 121);
+}
+article  p{
+   display: flex;
+   align-items: center;
+    
+}

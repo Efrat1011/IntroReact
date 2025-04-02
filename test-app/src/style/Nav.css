@@ -1,0 +1,14 @@
+.nav{
+   background-color: white;
+   height: 35px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 20px 10px;
+}
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 10px;
+}

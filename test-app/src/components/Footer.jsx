@@ -2,11 +2,11 @@ import React from 'react'
 import '../index.css'
 
 
-
-export default function Footer(){
+const Footer = () => {
     return(
-        <footer>
-            <h1>Uaaleykum assalam</h1>
-        </footer>
+       <footer className='footer'> 
+       <p>&copy; 2025 Menin blogim. Barlyq quqyqtar qorgalgan</p>
+       </footer>
     )
-}
+   }
+   export default Footer;

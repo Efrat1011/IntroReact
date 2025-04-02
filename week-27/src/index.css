@@ -1,0 +1,9 @@
+@import url('./style/TaskBox.css');
+@import url('./style/UseEffect.css');
+@import url('./style/Registered.css');
+a{
+    border-radius: 50px;
+    background-color: rgb(210, 210, 216);
+    text-decoration: none;
+    color: rgb(13, 13, 12);
+}
