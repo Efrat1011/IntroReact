@@ -1,90 +1,63 @@
-
+/* MovieDetail.css */
 .movie-detail-container {
-    font-family: 'Arial', sans-serif;
     max-width: 800px;
-    margin: 50px auto;
+    margin: 40px auto;
     padding: 20px;
-    background-color: #f9f9f9;
+    background: #fff;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-
-.loading,
-.error {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    font-size: 18px;
-    color: #333;
-    margin-top: 20px;
 }
-
-.loading {
-    color: #007bff;
-    animation: pulse 1.5s infinite;
-}
-
-@keyframes pulse {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0.5;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-.error {
-    color: #e74c3c;
-}
-
 
 .movie-title {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: bold;
-    color: #333;
     margin-bottom: 15px;
-    text-align: center;
+    color: #333;
 }
-
 
 .movie-poster {
     width: 100%;
-    height: auto;
+    max-width: 400px;
     border-radius: 8px;
     margin-bottom: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-
 .movie-info {
+    font-size: 16px;
+    color: #555;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    font-size: 16px;
-    color: #555;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
 }
 
 .movie-info span {
-    font-weight: bold;
-    color: #333;
+    display: block;
+    padding: 5px 0;
 }
 
-
 .movie-button {
-    display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 16px;
     color: #fff;
-    background-color: #007bff;
+    background-color: #3498db;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s;
 }
 
 .movie-button:hover {
-    background-color: #0056b3;
+    background-color: #2980b9;
+}
+
+.loading, .error {
+    font-size: 18px;
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
 }

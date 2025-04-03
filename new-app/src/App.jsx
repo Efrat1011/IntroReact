@@ -11,7 +11,7 @@ export default function App() {
     
     <BrowserRouter>
     <div className='app'>
-      <h1>Movie search app</h1>
+      <h1 style={{textAlign:'center'}}>Movie search app</h1>
       <Search onSearch={setMovies}/>
 
 

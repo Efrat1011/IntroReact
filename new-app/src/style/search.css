@@ -1,59 +1,42 @@
 /* Search.css */
-
-/* Іздеу формасының контейнері */
 .search-form {
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin: 20px 0;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
 }
 
-/* Іздеу инпуты */
 .search-input {
-    width: 100%;
-    max-width: 400px;
-    padding: 10px 15px;
+    width: 300px;
+    padding: 10px;
     font-size: 16px;
-    border: 2px solid #ccc;
-    border-radius: 5px 0 0 5px;
+    border: 2px solid #3498db;
+    border-radius: 8px;
     outline: none;
-    transition: border-color 0.3s ease;
+    transition: border-color 0.3s;
 }
 
 .search-input:focus {
-    border-color: #007bff;
+    border-color: #2980b9;
 }
 
-.search-input:disabled {
-    background-color: #f9f9f9;
-    cursor: not-allowed;
-}
-
-/* Іздеу кнопкасы */
 .search-button {
     padding: 10px 20px;
     font-size: 16px;
     color: #fff;
-    background-color: #007bff;
+    background-color: #3498db;
     border: none;
-    border-radius: 0 5px 5px 0;
+    border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s;
 }
 
 .search-button:hover {
-    background-color: #0056b3;
+    background-color: #2980b9;
 }
 
 .search-button:disabled {
-    background-color: #a0c4ff;
+    background-color: #95a5a6;
     cursor: not-allowed;
-}
-
-/* Жалпы стильдер */
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
