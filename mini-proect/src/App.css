@@ -1,0 +1,44 @@
+body.light {
+  background: white;
+  color: black;
+}
+
+body.dark {
+  background: black;
+  color: white;
+}
+
+
+
+div {
+
+  border-radius: 20px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+div:hover {
+  transform: scale(1.03);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+
+div::before {
+  content: "";
+  font-size: 20px;
+  color: #ff7f50;
+}
+
+br {
+  margin: 8px 0;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  div {
+    max-width: 600px;
+    margin: 20px auto;
+  }
+}

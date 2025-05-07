@@ -51,6 +51,8 @@
 }
 
 .no-result {
+    position: relative;
+    left: 600px;
     text-align: center;
     font-size: 18px;
     color: #888;
